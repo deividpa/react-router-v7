@@ -9,8 +9,8 @@ import {
 
 import type { Route } from "./+types/root";
 import "./app.css";
-import NavBar from "./components/NavBar";
-import { Footer } from "./components/footer";
+import NavBar from "./components/navbar";
+import Footer from "./components/footer";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -47,7 +47,7 @@ export default function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <NavBar />
-      <div className="flex-grow flex">
+      <div className="flex-grow flex justify-center">
         <Outlet />
       </div>
       <Footer />

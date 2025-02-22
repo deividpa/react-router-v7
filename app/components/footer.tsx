@@ -1,7 +1,7 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { Link } from "react-router";
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="shadow-lg text-white py-6">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">

@@ -23,8 +23,6 @@ export default function Country({ loaderData }: Route.ComponentProps) {
     flag: loaderData?.flags?.svg || loaderData?.flags?.png,
   }
 
-  console.log(country.flag);
-
   return (
     <div className="flex flex-grow bg-gray-100 py-7 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
